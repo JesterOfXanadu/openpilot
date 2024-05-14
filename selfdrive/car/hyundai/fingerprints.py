@@ -1011,6 +1011,7 @@ FW_VERSIONS = {
     (Ecu.parkingAdas, 0x7b1, None): [
       b'\xf1\x10NE1  ADAS_PRK ANL 1.01 1.07 99910-GI400'
     ],
+  },
   CAR.HYUNDAI_IONIQ_6: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00CE__ RDR -----      1.00 1.01 99110-KL000         ',
