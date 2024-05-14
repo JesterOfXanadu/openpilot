@@ -972,6 +972,7 @@ FW_VERSIONS = {
   CAR.HYUNDAI_IONIQ_5: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00NE1_ RDR -----      1.00 1.00 99110-GI000         ',
+      b'\xf1\x8799110GI000\xf1\x00NE1_ RDR -----      1.00 1.00 99110-GI000         '
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00NE1 MFC  AT CAN LHD 1.00 1.05 99211-GI010 220614',
@@ -990,6 +991,26 @@ FW_VERSIONS = {
       b'\xf1\x00NE1 MFC  AT USA LHD 1.00 1.06 99211-GI010 230110',
     ],
   },
+  CAR.HYUNDAI_IONIQ_5_2022: {
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00NE1_ RDR -----      1.00 1.00 99110-GI000         ',
+      b'\xf1\x8799110GI000\xf1\x00NE1_ RDR -----      1.00 1.00 99110-GI000         '
+    ],
+    (Ecu.adas, 0x730, None): [
+      b'\xf1\x00NE1 ADRV 1.00 1.00 230831'
+    ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x00NE  BCW RR 1.00 , 1.00 (\x81\x91\x93#\x02\x80\x01e'
+    ],
+    (Ecu.hvac, 0x7b3, None): [
+      b"\xf1\x00NE1   97255-GI312CONTROL ASS'Y-DATC  1.15.00 NE1 DATC(-)1.2   "
+    ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00NE1 MFC  AT USA LHD 1.00 1.00 99211-GI100 230915'
+    ],
+    (Ecu.parkingAdas, 0x7b1, None): [
+      b'\xf1\x10NE1  ADAS_PRK ANL 1.01 1.07 99910-GI400'
+    ],
   CAR.HYUNDAI_IONIQ_6: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00CE__ RDR -----      1.00 1.01 99110-KL000         ',
